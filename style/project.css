@@ -1,0 +1,504 @@
+
+h1,h2,p,body{
+  font-family: Tahoma, Helvetica, sans-serif;
+  color: white;
+}
+
+h1{font-size: 1.8em;padding-top: 0.2em; padding-left: 0.3em;}
+h2{font-size: 1.2em; height: 20%;}
+p, body{font-size: 0.9em; min-width: 10em;}
+
+body{
+   min-width: 50em;
+   background-image: url("../picture1.jpg");
+   background-size: 100%, 100%;
+   position: relative;
+   min-height: 100%;
+
+   background-color: #cccccc;
+}
+
+
+p{
+}
+
+a {
+  margin-left: 1em;
+  margin-right: 1em;
+  text-decoration:none;
+}
+
+h1{
+  margin-left: 0em;
+}
+
+
+header{
+}
+
+.head{
+  background-color: lightblue;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  height: 5em;
+}
+
+.search{
+    text-align: center;
+
+  display: inline-block;
+  margin-top: 1em;
+  margin-left: 40em;  
+  width: 20em;
+  height: 1em;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.s{
+  display: inline-block;
+  margin-bottom: 2em;
+  width: 18em;
+  height: 2em;
+
+}
+
+.s1{
+  margin-top: 10em;
+  margin-right: 3em;
+  width: 24em;
+  height: 2em;
+
+
+}
+
+input {
+    height: 1.5em;
+}
+
+
+.head h1{
+  width: 10em;
+  height: 1em;
+  margin-bottom: 6em;
+  display: inline-block;
+  padding-top: .5em;
+}
+
+footer{
+  background-color: lightblue;
+  margin-top: 2em;
+  height: 4em;
+  position:relative;
+  width: 100%;
+}
+
+
+/** Create new account page **/
+#login2{
+  background-color: lightblue;
+  height: 60em;
+  float: right;
+  margin-right: 5em;
+  width: 25%;
+}
+
+#main2 {
+    width: 100%;
+    display: inline-block;
+}
+
+/** My profile page **/
+#mypost {
+    width: 40%;
+    height: 60em;
+    float:left; 
+    margin-left: 5em;
+    overflow: hidden;
+}
+#login2 {
+    height: 60em;
+    width: 36%;
+    margin-right: 5em;
+    background-color: lightblue;
+    overflow: hidden; 
+}
+
+
+
+
+
+#feed2{
+  background-color: lightblue;
+   text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  height: 60em;
+  overflow: auto;
+  margin-left: 5em;
+}
+
+#feed3{
+  background-color: lightblue;
+   text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  height: 60em;
+  overflow: auto;
+  margin-left: 5em;
+}
+
+
+/**  **/
+
+
+.signin2{
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 20em;
+}
+
+.signin3{
+  margin-top: 10em;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 20em;
+}
+
+.buttonc{
+  text-align: center;
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  border-radius: 6px;  
+}
+
+.button{
+  text-align: center;
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  border-radius: 6px;  
+}
+
+.button2{
+  margin-top: .5em;
+  margin-left: 1em;
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  border-radius: 6px;  
+  height: 3em;
+  width: 6em;
+  float: right;
+}
+
+.button3{
+  margin-top: .5em;
+  margin-left: 2em;
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  border-radius: 6px;  
+  height: 3em;
+  width: 6em;
+    float: right;
+
+}
+
+
+.button4{
+  margin-top: .5em;
+  margin-left: 1em;
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  border-radius: 6px;  
+  height: 3em;
+  width: 6em;
+  float: right;
+  z-index: 1;
+}
+
+
+.button:hover,.button2:hover,.button3:hover {
+  background-color: grey; /* Green */
+}
+
+
+/*************************** home page **************************/
+#login{
+  background-color: lightblue;
+  height: 500px;
+  float: right;
+  margin-left: 2em;
+  margin-top: 7.4em;
+  margin-right: 5em;
+  min-width: 10em;
+  max-width: 40em;
+  width: 20em;
+  height: 20em;
+  position: relative;
+}
+
+.signin{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 20em;
+}
+
+
+
+.display{
+    display: inline-block;
+    width: 40em;
+    height: 14em;
+    border: 3px solid #73AD21; 
+}
+
+
+/**main container home**/
+#main{
+    display: inline-block;
+    border: 3px solid grey;
+    width: 100%;
+    position: relative;
+}
+/**container for post and admin2 **/
+#top{
+  width: 100%;
+  position: relative;
+}
+/**admin feature on home page **/
+#admin2{
+  color: white;
+  font-size: 20px;
+  margin-left: 65%;
+}
+
+/**user post table**/
+#post{
+  float: left;
+  margin-left: 5%;
+  
+
+}
+
+#feed{
+  margin-left: 1em;
+  height: 70em;
+  overflow-y: auto;
+  min-width: 30em;
+  max-width: 60em;
+  display: inline-block;
+
+}
+
+.info{
+  margin-top: 2em;
+  margin-left: 2em;
+}
+.info th{
+    display: inline-block;
+    height: 75%;
+    margin-left: 1em;
+    margin-top: 1em;
+    border-top: 3px solid grey;
+    font-size: 16px;
+    min-width: 30em;
+    max-width: 30em;
+}
+
+.info td{
+    display: inline-block;
+    width: 30%;
+    height: 3em;
+    margin-top: .5em;
+    margin-left: 1.5em;
+    min-width: 30em;
+    max-width: 38em;
+  }
+
+.info a{
+    background-color: #4CAF50;
+    border-radius: 6px;  
+    color: white;
+    padding: 10px;
+}
+
+.info a:hover{
+    background-color: grey; 
+
+}
+
+/*************************** end of home page **************************/
+
+
+.info2{
+  margin-top: 2em;
+  margin-left: 1em;
+
+
+}
+/* left content */
+.info2 th{
+  display: inline-block;
+  height: 75%;
+  margin-left: 1em;
+  margin-top: 1em;
+  border-top: 3px solid grey;
+  font-size: 24px;
+  min-width: 30em;
+  max-width: 30em;
+}
+
+.info2 td{
+  display: inline-block;
+  width: 30%;
+  height: 3em;
+  margin-top: .5em;
+  margin-left: 1.5em;
+  min-width: 30em;
+  max-width: 30em;
+}
+
+
+/**************************** admin page ***************************/
+#main3{
+  width: 100%;
+  height: 100%;
+  display: inline-block;  
+
+}
+
+#login3{
+    height: 60em;
+    width: 40%;
+    margin-right: 1em;
+    margin-left: 1em;
+    background-color: lightblue;
+    opacity: 1;
+    color: black;
+    display: inline-block;
+    overflow-y: hidden;
+
+}
+
+
+#adminpost{
+    width: 45%;
+    height: 60em;
+    margin-left: 2em;
+    color: black;
+    margin-right: 5em;
+    display: inline-block;
+    overflow-y: scroll;
+}
+
+.admin{
+  min-width: 40em;
+  width: 100%;
+}
+
+/**right content**/
+#login3{
+     display: inline-block;
+     position: absolute;
+     overflow: auto;
+     min-width: 30em;
+     max-width: 50em;
+     min-height: 50em; 
+     margin-right: 3em;  
+     float: right;
+
+  }
+
+/**left content**/
+#adminpost{
+   display: inline-block;
+   min-height: 60em;
+   min-width: 25em;
+   max-width: 60em;
+}
+/* right content */
+.admin th{
+    display: inline-block;
+    width: 5em;
+    height: 1em;
+    margin: 1em;  
+
+}
+
+/* right content */
+.admin td{
+    display: inline-block;
+    width: 5em;
+    height: 2em;
+    margin: 1em;  
+    padding: .5em;
+}
+
+#adminfeed{
+      border-top: 3px solid grey;
+
+}
+
+/**************************** end of admin page ***************************/
+
+
+.terms{
+  color: black;
+}
+
+/**************************** posts.php ***************************/
+#comments{
+  display: inline-block;
+  float: right;
+  margin-top: 25%;
+  margin-right: 5em;
+  margin-bottom: 25%;
+}
+#leftpage{
+  display: inline-block;
+  width: 55%;
+}
+
+#postspage{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.info4{
+  margin-left: 1em;
+  position: relative;
+  min-width: 5em;
+  border: 3px solid grey;
+  padding-bottom: 3em;
+}
+.info5{
+  margin-left: 1em;
+  position: relative;
+  min-width: 5em;
+}
+
+.info4 td{
+    display: inline-block;
+    height: 3em;
+    margin-top: .5em;
+    margin-left: .5em;
+    font-size: 1.4em;
+  }
+/**************************** end of posts.php ***************************/
+
+
+
+
